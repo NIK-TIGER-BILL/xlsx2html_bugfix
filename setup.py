@@ -5,7 +5,7 @@ import sys
 
 from setuptools import setup, find_packages
 
-version = "0.4.4"
+version = "0.0.1"
 
 if sys.argv[-1] == "publish":
     try:
@@ -34,7 +34,7 @@ __doc__ = (
     """A simple export from xlsx format to html tables with keep cell formatting"""
 )
 
-project_name = "xlsx2html"
+project_name = "xlsx2html_bugfix"
 app_name = "xlsx2html"
 
 ROOT = os.path.dirname(__file__)
